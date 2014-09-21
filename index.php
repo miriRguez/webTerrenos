@@ -9,6 +9,38 @@ switch ($_REQUEST['ctrl']) {
 		//crear objeto
 		$ctrl = new UsuarioControlador();
 		break;
+	case 'cliente':
+		require('Controlador/clienteControlador.php');
+		$ctrl = new clienteControlador();
+		break;
+	case 'sesion':
+		require('Controlador/sesionControlador.php');
+		$ctrl = new sesionControlador();
+		break;
+	case 'telefono':
+		require('Controlador/telefonoControlador.php');
+		$ctrl = new telefonoControlador();
+		break;
+	case 'empleado':
+		require('Controlador/empleadoControlador.php');
+		$ctrl = new empleadoControlador();
+		break;
+	case 'predio':
+		require('Controlador/predioControlador.php');
+		$ctrl = new predioControlador();
+		break;
+	case 'manzana':
+		require('Controlador/manzanaControlador.php');
+		$ctrl = new manzanaControlador();
+		break;
+	case 'lote':
+		require('Controlador/loteControlador.php');
+		$ctrl = new loteControlador();
+		break;
+
+
+
+
 	default:
 		echo "ningun parametro!!";
 

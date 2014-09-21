@@ -4,7 +4,7 @@ class UsuarioControlador{
 
 	private $modelo;
 
-	function UsuarioControlador(){
+	function __construct(){
 		require('Modelo/usuarioModelo.php');
 		$this->modelo = new UsuarioModelo();
 	}
@@ -16,6 +16,15 @@ class UsuarioControlador{
 				$this->insertar();
 
 				break;
+
+				case 'modificar':
+					$this->modificar();
+					break;
+				case 'eliminar':
+					$this->eliminar();
+					break;
+
+
 			default:
 				break;
 			;
@@ -26,12 +35,12 @@ class UsuarioControlador{
 	function insertar(){
 		require('/funciones.php');
 		$validar = new validar();
-		$nombre = $validar->validarTexto($_REQUEST['nombre']);
-		$email = $validar->validarEmail($_REQUEST['email']);
-		$tipo =  $validar->validarTexto($_REQUEST['tipo']);
+		$nombre = $validar->validarNombre($_REQUEST['nombre']);
+		$nivelAcceso =  $validar->validarTexto($_REQUEST['nivelUsuario']);
 		$password = $validar-> validarPassword($_REQUEST['password']);
+		$telefono = $validar->validarTelefono($_REQUEST['telefono']);
 
-		$resultado = $this->modelo->insertar($nombre,$tipo,$email,$password);
+		$resultado = $this->modelo->insertar($nombre,$tipo,$password,$telefono);
 
 		if ($resultado)
 		{
@@ -41,6 +50,14 @@ class UsuarioControlador{
 		{
 			require('/Vista/Error.html');
 		}
+
+	}
+
+	function modificar($usuarioId){
+
+	}
+
+	function eliminar($usuarioId){
 
 	}
 }

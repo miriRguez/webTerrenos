@@ -2,17 +2,28 @@
 
 class UsuarioModelo{
 	private $nombre;
-	private $tipo;
-	private $email;
+	private $nivelAcceso;
 	private $password;
+	private $usuarioId;
+	private $telefono;
 
-	function insertar($nombre,$tipo,$email,$password){
-		$this->tipo = $tipo;
+
+	function insertar($nombre,$nivelAcceso,$password,$telefono,$usuarioId){
+		$this->nivelAcceso = $nivelAcceso;
 		$this->nombre = $nombre;
-		$this->email = $email;
+		$this->usuarioId = $usuarioId;
 		$this->password = $password;
+		$this->telefono = $telefono;
 
 		return TRUE;
+
+	}
+
+	function modificar($usuarioId){
+
+	}
+
+	function eliminar($usuarioId){
 
 	}
 }
