@@ -37,9 +37,15 @@ switch ($_REQUEST['ctrl']) {
 		require('Controlador/loteControlador.php');
 		$ctrl = new loteControlador();
 		break;
-
-
-
+	case 'venta':
+		require('Controlador/ventaControlador.php');
+		break;
+	case 'pago':
+		require('Controlador/pagoControlador.php');
+		break;
+	case 'mora':
+		require('Controlador/moraControlador.php');
+		break;
 
 	default:
 		echo "ningun parametro!!";

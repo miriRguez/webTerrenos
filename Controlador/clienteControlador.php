@@ -8,7 +8,6 @@ class clienteControlador{
 		$this->modelo = new clienteModelo();
 	}
 
-
 	function run(){
 		switch ($_REQUEST['accion']) {
 			case 'insertar':
@@ -28,10 +27,10 @@ class clienteControlador{
 				break;
 			;
 		} // switch
-
 	}
 
-		function insertar(){
+	function insertar()
+	{
 			require('/funciones.php');
 
 			$validar = new validar();
@@ -68,14 +67,15 @@ class clienteControlador{
 			{
 				require('/Vista/Error.html');
 			}
-
 		}
 
-	function modificar(){
+	function modificar()
+	{
 
 	}
 
-	function eliminar(){
+	function eliminar()
+	{
 
 	}
 }
