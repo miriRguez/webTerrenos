@@ -1,3 +1,6 @@
+Miriam Rodriguez Lopez
+Hugo Rafael Hernandez Llamas
+
 PV de Terrenos
 El sistema debe ser capaz de administrar las ventas de terrenos, 
 así como la automatización del proceso de contratos.
