@@ -22,10 +22,11 @@ class clienteModelo{
 	private $municipioOrigen;
 	private $rfc;
 
-	function insertar($nombre,$apellidoP,$apellidoM,$calle,$numeroInt,$numeroExt,$colonia,
+	function insertar($clienteId,$nombre,$apellidoP,$apellidoM,$calle,$numeroInt,$numeroExt,$colonia,
 					$cp,$municipio,$fechaNac,$sexo,$estado,$nacionalidad,$estadoCivil,$oficio,
 					$cdOrigen,$municipioOrigen,$rfc){
 
+		$this->clienteId = $clienteId;
 		$this->nombre = $nombre;
 		$this->apellidoP = $apellidoP;
 		$this->apellidoM = $apellidoM;

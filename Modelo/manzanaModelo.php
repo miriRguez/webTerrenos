@@ -7,7 +7,7 @@ class manzanaModelo{
 	private $idPredio;
 
 
-	function insertar($numero,$idpredio){
+	function insertar($numero,$idPredio){
 		$this->numero = $numero;
 		$this->idPredio = $idPredio;
 

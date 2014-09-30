@@ -13,11 +13,13 @@ class loteModelo{
 	private $medidaOeste;
 	private $idManzana;
 
-	function insertar($colindanciaSur, $colindanciaNorte, $colindanciaEste, $colindanciaOeste,$medidaSur,$medidaNorte,$medidaEste,$medidaOeste,$idManzana){
+	function insertar($idLote,$colindanciaSur, $colindanciaNorte, $colindanciaEste, $colindanciaOeste,$medidaSur,
+						$medidaNorte,$medidaEste,$medidaOeste,$idManzana){
+		$this->idLote = $idLote;
 		$this->colindanciaSur = $colindanciaSur;
 		$this->colindanciaEste = $colindanciaEste;
 		$this->colindanciaOeste = $colindanciaOeste;
-		$this->conlindanciaNorte = $conlindanciaNorte;
+		$this->colindanciaNorte = $colindanciaNorte;
 		$this->medidaEste = $medidaEste;
 		$this->medidaOeste = $medidaOeste;
 		$this->medidaNorte = $medidaNorte;

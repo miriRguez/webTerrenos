@@ -28,8 +28,9 @@ class sesionControlador{
 
 		$usuario = $validar->validarNombre($_REQUEST['usuario']);
 		$password = $validar-> validarPassword($_REQUEST['password']);
+		$email = $validar->validarEmail($_REQUEST['email']);
 
-		$resutado = $this->modelo->iniciarSesion($usuario,$password);
+		$resutado = $this->modelo->iniciarSesion($usuario,$password,$email);
 
 		if ($resutado) {
 			session_start();

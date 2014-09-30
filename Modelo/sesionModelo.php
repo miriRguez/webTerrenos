@@ -8,6 +8,7 @@ class sesionModelo{
 	function iniciarSesion($usuario,$password){
 		$this->usuario = $usuario;
 		$this->password = $password;
+		$this->email = $email;
 
 		return TRUE;
 	}

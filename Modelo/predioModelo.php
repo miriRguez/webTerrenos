@@ -7,8 +7,9 @@ class predioModelo{
 	private $municipio;
 	private $colonia;
 
-	function insertar($nombre,$municipio,$colonia){
+	function insertar($idpredio,$nombre,$municipio,$colonia){
 		$this->nombre = $nombre;
+		$this->idPredio = $idpredio;
 		$this->municipio = $municipio;
 		$this->colonia = $colonia;
 
