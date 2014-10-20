@@ -1,6 +1,7 @@
 <?php
 
-class UsuarioControlador{
+require('controladorStandar.php');
+class UsuarioControlador  extends controladorStandar{
 
 	private $modelo;
 
@@ -33,28 +34,42 @@ class UsuarioControlador{
 
 	function insertar()
 	{
-		require('/funciones.php');
+		require('funciones.php');
+
+		//Valido que los datos esten limpios y con el formato que les corresponde
 
 		$validar = new validar();
 		$nombre = $validar->validarNombre($_REQUEST['nombre']);
-		$nivelAcceso =  $validar->validarTexto($_REQUEST['nivelUsuario']);
-		$password = $validar-> validarPassword($_REQUEST['password']);
-		$telefono = $validar->validarTelefono($_REQUEST['telefono']);
+		if (isset($_REQUEST['nivelAcceso'])) {
+			$nivelAcceso =  $validar->validarNumero($_REQUEST['nivelAcceso']);
+		}else{
+			$nivelAcceso = '0';
+		}
 
+
+		$password = $validar-> validarCadena($_REQUEST['password']);
+		//$telefono = $validar->validarTelefono($_REQUEST['telefono']);
+		$usuarioEmail = $validar->validarEmail($_REQUEST['usuarioEmail']);
 		//$contactos = array();
-		$resultado = $this->modelo->insertar($nombre,$tipo,$password,$telefono);
+		$resultado = $this->modelo->insertar($nombre,$password,$usuarioEmail,$nivelAcceso);
 
 		//$contactos = $this->modelo->leerCsv();
 
 		if ($resultado)
 		{
-			//var_dump($contactos);
-			die ('por fin llegue');
-			require('/Vista/usuarioInsertado.html');
+			//si fue correctamente insertado lo llevo a una vista de usuario insertado
+			//y le enviamos un correo para darle la  bienvenida
+			require('correo.php');
+			$asunto = 'Confirmacion de registro';
+			$cuerpo = 'Saludos '.$nombre.', este correro es para confirmar tu registro en nuestra pagina,
+						agradecemos tu preferencia';
+			$correo = new Correo($usuarioEmail, $asunto, $cuerpo);
+			$correo->send();
+			header('Location:Vista/usuarioInsertado.html');
 		}
 		else
 		{
-			require('/Vista/Error.html');
+			header('Location:Vista/Error.html');
 		}
 	}
 

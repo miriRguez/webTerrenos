@@ -8,8 +8,9 @@ class pagoModelo
 	private $tipoPago;
 	private $pagoActual;
 	private $statusPago;
+	private $ventaId;
 
-	function insertar($monto,$fechaPago,$fechaCorte,$tipoPago,$pagoActual,$statusPago)
+	function insertar($monto,$fechaPago,$fechaCorte,$tipoPago,$pagoActual,$statusPago,$ventaId)
 	{
 		$this->monto = $monto;
 		$this->fechaPago = $fechaPago;
@@ -17,6 +18,7 @@ class pagoModelo
 		$this->tipoPago = $tipoPago;
 		$this->pagoActual = $pagoActual;
 		$this->statusPago = $statusPago;
+		$this->ventaId = $ventaId;
 
 		return true;
 	}

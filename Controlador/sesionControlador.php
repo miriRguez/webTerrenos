@@ -1,20 +1,38 @@
 <?php
 
-class sesionControlador{
+require('controladorStandar.php');
+
+class sesionControlador extends controladorStandar{
   private $modelo;
+
 
 	function __construct(){
 		require('Modelo/sesionModelo.php');
 		$this->modelo = new sesionModelo();
+
+		if (!isset($_REQUEST['accion'])) {
+			header('Location:Vista/login.html');
+
+		}
 	}
+
+
 
 	function run(){
 		switch ($_REQUEST['accion']) {
 			case 'iniciar':
-				$this->iniciarSesion();
+				if (!$this->estaLogeado()) {
+					$this->iniciarSesion();
+				}
+
 				break;
 			case 'cerrar':
-				$this->cerrarSesion();
+					echo "entra!!!";
+
+					if ($this->estaLogeado()) {
+
+						$this->cerrarSesion();
+					}
 				break;
 			default:
 				require('/Vista/Error.html');
@@ -23,26 +41,39 @@ class sesionControlador{
 	}
 
 	function iniciarSesion(){
-		require('/funciones.php');
+		require('funciones.php');
 		$validar = new validar();
+		//require('Vista/login.html');
 
-		$usuario = $validar->validarNombre($_REQUEST['usuario']);
-		$password = $validar-> validarPassword($_REQUEST['password']);
-		$email = $validar->validarEmail($_REQUEST['email']);
+		$usuarioEmail = $validar->validarEmail($_REQUEST['usuarioEmail']);
+		$password = $validar-> validarCadena($_REQUEST['password']);
 
-		$resutado = $this->modelo->iniciarSesion($usuario,$password,$email);
+		$resutado = $this->modelo->iniciarSesion($usuarioEmail,$password);
 
 		if ($resutado) {
-			session_start();
-			require('Vista/inicioSesion.html');
+			$_SESSION['sessionID'] = $usuarioEmail;
+			header('Location:Vista/index.html');
 		}else{
-			require('/Vista/Error.html');
+			header('Location:Vista/Error.html');
 		}
 	}
 
-	function cerrarSesion($sesionId){
-		session_destroy();
-		require('Vista/sesionTerminada');
+	function cerrar(){
+		if(!isset($_SESSION['usuarioEmail']))
+		{
+			die("No hay ninguna sesion iniciada");
+			//esto ocurre cuando la sesion caduca.
+
+		}
+		else
+		{
+			$terminar = $this-$this->modelo->cerrarSesion();
+       		if ($terminar) {
+       			echo("entra!!!");
+       			header('Location:Vista/index.html');
+
+       		}
+		}
 	}
 }
 

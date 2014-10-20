@@ -40,11 +40,15 @@ class moraControlador
 		$mesMora = $validar->validarCadena($_REQUEST['mesMora']);
 		$fechaMora = $validar->validarFecha($_REQUEST['fechaMora']);
 		$statusMora = $validar->validarCadena($_REQUEST['statusMora']);
+		$ventaId = $validar->validarNumero($_REQUEST['ventaId']);
 
-		$resultado = $this->modelo->insertar($monto,$fechaPago,$mesMora,$fechaMora,$statusMora);
+		$resultado = $this->modelo->insertar($monto,$fechaPago,$mesMora,$fechaMora,$statusMora,$ventaId);
 
 		if($resultado)
-		{
+		{//INSERT INTO `Mora`(`moraId`, `pagoMora`, `fechaPago`, `mesMora`, `fechaEnQueGeneroMora`, `statusMora`, `ventaId`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7])
+			$query = "INSERT INTO`Mora`(`pagoMora`, `fechaPago`, `mesMora`, `fechaEnQueGeneroMora`, `statusMora`, `ventaId`)
+			 VALUES ('$manzanaId','$numero','$idPredio')";
+			$result = $this->bd_driver->query($query);
 			require('/Vista/moraInsertada.html');
 		}
 		else

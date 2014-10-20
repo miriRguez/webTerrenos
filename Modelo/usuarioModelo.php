@@ -8,37 +8,32 @@ class UsuarioModelo
 	private $usuarioId;
 	private $telefono;
 	private $mysqli;//variable de conexion
+	private $usuarioEmail;
 
 	function __construct()
 	{
+		require('BD.php');
 		$this->mysqli = BD::getInstancia();
-
-		//$conexion =  $this->bd->conexion();
-		/*
-		$this->mysqli_driver = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
-
-		if ($mysqli->connect_errno)
-		{
-			return new soapval('return','xsd:string','NO TIENE ACCESO');
-		}*/
 	}
 
-	function insertar($nombre,$nivelAcceso,$password,$telefono,$usuarioId)
+	function insertar($nombre,$password,$usuarioEmail,$nivelAcceso)
 	{
 		$this->nivelAcceso = $nivelAcceso;
 		$this->nombre = $nombre;
-		$this->usuarioId = $usuarioId;
+		//$this->usuarioId = $usuarioId;
 		$this->password = $password;
-		$this->telefono = $telefono;
+		//$this->telefono = $telefono;
+		$this->usuarioEmail = $usuarioEmail;
 
-		$this->mysqli->escape_string($this->nivelAcceso);
 		$this->mysqli->escape_string($this->nombre);
+		$this->mysqli->escape_string($this->password);
+		$this->mysqli->escape_string($this->usuarioEmail);
 
-	    $query = "INSERT INTO `Usuario`(`id_user`, `nombre`, `tipo`, `password`) VALUES '$usuarioId','$nombre',' $nivelAcceso')";
+	    $query = "INSERT INTO `Usuario`(`nombre`, `nivelAcceso`, `password`,`usuarioEmail`) VALUES ('$nombre','$nivelAcceso','$password','$usuarioEmail')";
 
 		$result = $this->mysqli->query($query);
 
-		if ($this->$this->mysqli->error)
+		if ($this->mysqli->error)
 		{
 			die('Error al insetar usuario');
 		}

@@ -44,12 +44,17 @@ class pagoControlador
 		$tipoPago = $validar->validarCadena($_REQUEST['tipoPago']);
 		$pagoActual = $validar->validarNumero($_REQUEST['pagoActual']);
 		$statusPago = $validar->validarNumero($_REQUEST['statusMora']);
+		$ventaId = $validar->validarNumero($_REQUEST['ventaId']);
 
-		$resultado = $this->modelo->insertar($monto,$fechaMora,$fechaCorte,$tipoPago,$pagoActual,$statusPago);
+		$resultado = $this->modelo->insertar($monto,$fechaMora,$fechaCorte,$tipoPago,$pagoActual,$statusPago,$ventaId);
 
 		if($resultado)
 		{
-			require('../Vista/pagoInsertado.html');
+			$query = "INSERT INTO `Pago`(`montoPagado`, `fechaPago`, `fechaCorte`, `tipoPago`, `pagoActual`,
+										 `statusPago`, `ventaId`)
+								 VALUES ('$monto','$fechaMora','$fechaCorte,''$tipoPago','$pagoActual','$statusPago','$ventaId')";
+			$result = $this->bd_driver->query($query);
+			require('/Vista/pagoInsertado.html');
 		}
 		else
 		{

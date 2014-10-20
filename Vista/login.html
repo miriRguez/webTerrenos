@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inciar sesi&oacute;n</title>
+</head>
+<body>
+	<fieldset>
+		<legend>Inicia sesi&oacute;n</legend>
+		<form method = "POST" action ="../index.php?ctrl=iniciarSesion&accion=iniciar">
+			<label for = "usuario">Correo del usuario: </label>
+			<input type = "text" name ="usuarioEmail" id = "usuario"/>
+			<label for = "password">Contrase&ntildea: </label>
+			<input type = "password" name = "password" id = "password"/>
+			<input type = "submit" value = "Iniciar sesi&oacute;n"/>
+		</form>
+	</fieldset>
+
+	<fieldset>
+			<legend>&iquest;No estas Regustrado? Regitrate</legend>
+				<form method = "POST" action ="../index.php?ctrl=usuario&accion=insertar">
+					<label for = "nombre">Nombre: </label>
+					<input type = "text" name ="nombre" id = "nombre"/>
+					<label for = "usuario">Correo: </label>
+					<input type = "text" name ="usuarioEmail" id = "usuarioEmail"/>
+					<label for = "password">Contrase&ntildea: </label>
+					<input type = "password" name = "password" id = "password"/>
+	     			<button type="submit">Registrate</button>
+			</form>
+	</fieldset>
+</body>
+</html>

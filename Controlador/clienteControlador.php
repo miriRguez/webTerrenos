@@ -7,7 +7,7 @@ class clienteControlador{
 	function __construct(){
 		require('Modelo/clienteModelo.php');
 		require('config.inc');
-		$this->bd_driver = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAM);
+		$this->bd_driver = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
 		if ($this->bd_driver->connect_errno){
 			printf("conexion fallida %s/n",mysql_connect_error());
@@ -77,7 +77,7 @@ class clienteControlador{
 												  `estado`, `estadoCivil`, `oficio`, `ciudadOrigen`, `municipioOrigen`, `estadoOrigen`, `rfc`)
 												  VALUES ('$clienteId','$nombre','$apellidoP','$apellidoM','$calle','$numeroInt','$numeroExt',
 												  '$colonia','$cp','$municipio','$fechaNac','$sexo','$nacionalidad','$estado','$estadoCivil',
-												  '$oficio','$cdOrigen','$municipioOrigen','$estadoOrigen','$rfc')";
+												  '$oficio','$cdOrigen','$municipioOrigen','$municipioOrigen','$rfc')";
 				$result = $this->bd_driver->query($query);
 
 				if ($this->bd_driver->error) {

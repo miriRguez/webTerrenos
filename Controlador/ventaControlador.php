@@ -52,6 +52,11 @@ class ventaControlador
 
 		if($resultado)
 		{
+
+			$query = "INSERT INTO `Venta`(`tipoPago`, `precioTerreno`, `mensualidad`, `fechaCompra`, `fechaCorte`, `statusVenta`, `clienteId`)
+										 VALUES ('$tipoPago','$monto', '$mensualidad', '$fechaCompra','$fechaCorte' ,'$statusVenta')";
+			$result = $this->bd_driver->query($query);
+
 			require('/Vista/ventaInsertada.html');
 		}
 		else

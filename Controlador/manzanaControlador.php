@@ -1,29 +1,48 @@
 <?php
 
-class manzanaControlador{
+
+require('controladorStandar.php');
+class manzanaControlador extends controladorStandar{
 
 	private $modelo;
+	private $bd_driver;
 
 	function __construct(){
 		require('Modelo/manzanaModelo.php');
+		require('BD.php');
 		require('config.inc');
-		$this->bd_driver = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAM);
+
+			$this->modelo = new manzanaModelo();
+
+		$this->bd_driver = BD::getInstancia();
+
+
+
+
+	/*	$this->bd_driver = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
 
 		if ($this->bd_driver->connect_errno){
 			printf("conexion fallida %s/n",mysql_connect_error());
 			exit();
-		}
+		}*/
 
 
 
-		$this->modelo = new manzanaModelo();
 	}
 
 
 	function run(){
 		switch ($_REQUEST['accion']) {
 			case 'insertar':
-				$this->insertar();
+				if($this->estaLogeado() && $this->esAdmin() ) {
+					$this->insertar();
+				}else{
+					if(!$this->estaLogeado()){
+						header('Location: index.php?ctrl=login&accion=iniciarSesion');
+					}else{
+						require('view/errorAcceso.php');
+					}
+				}
 
 				break;
 
@@ -51,10 +70,11 @@ class manzanaControlador{
 		$resultado = $this->modelo->insertar($numero,$idPredio);
 
 		if ($resultado) {
-			$query = "INSERT INTO `Manzana`(`manzanaId`, `numero`, `predioId`) VALUES (1,'$numero','$idPredio')";
+			$query = "INSERT INTO `Manzana`( `numero`, `predioId`) VALUES ('$numero','$idPredio')";
 			$result = $this->bd_driver->query($query);
 
 			if ($this->bd_driver->error) {
+				echo "error en query ";
 				require('Vista/Error.html');
 			}else{
 				require('Vista/manzanaInsertada.html');

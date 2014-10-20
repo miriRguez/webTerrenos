@@ -1,8 +1,21 @@
 <?php
-//get query args
 
+session_start();
 $ctrl;
-switch ($_REQUEST['ctrl']) {
+
+
+if (!isset($_REQUEST['ctrl'])) {
+	require('Controlador/sesionControlador.php');
+	$ctrl = new sesionControlador();
+//	require('Controlador/sesionControlador.php');
+}
+
+if (!$_SESSION['usuarioEmail']) {
+	header('Location:Vista/index.html');
+}
+
+switch ($_REQUEST['ctrl'])
+{
 	case 'usuario':
 		//crear y ejecutar el controlador
 		require('Controlador/usuarioControlador.php');
@@ -13,7 +26,7 @@ switch ($_REQUEST['ctrl']) {
 		require('Controlador/clienteControlador.php');
 		$ctrl = new clienteControlador();
 		break;
-	case 'sesion':
+	case 'iniciarSesion':
 		require('Controlador/sesionControlador.php');
 		$ctrl = new sesionControlador();
 		break;
@@ -39,12 +52,15 @@ switch ($_REQUEST['ctrl']) {
 		break;
 	case 'venta':
 		require('Controlador/ventaControlador.php');
+		$ctrl = new ventaControlador();
 		break;
 	case 'pago':
 		require('Controlador/pagoControlador.php');
+		$ctrl = new pagoControlador();
 		break;
 	case 'mora':
 		require('Controlador/moraControlador.php');
+		$ctrl = new moraControlador();
 		break;
 
 	default:

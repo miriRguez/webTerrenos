@@ -17,7 +17,7 @@ private $estado;
 private $nss;
 private $rfc;
 
-function insertar($nombre,$apellidoP,$apellidoM,$calle,$numeroInt,$numeroExt,$colonia,
+function insertar($empleadoId,$nombre,$apellidoP,$apellidoM,$calle,$numeroInt,$numeroExt,$colonia,
 	$cp,$municipio,$fechaNac,$sexo,$nss,$rfc){
 
 	$this->nombre = $nombre;
