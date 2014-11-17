@@ -1,21 +1,15 @@
 <?php
-
-class clienteControlador{
-  	private $modelo;
+require('controladorStandar.php');
 
 
-	function __construct(){
+class clienteControlador extends controladorStandar {
+	private $modelo;
+
+	function __construct()
+	{
 		require('Modelo/clienteModelo.php');
-		require('config.inc');
-		$this->bd_driver = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAME);
-
-		if ($this->bd_driver->connect_errno){
-			printf("conexion fallida %s/n",mysql_connect_error());
-			exit();
-		}
-
-
 		$this->modelo = new clienteModelo();
+
 	}
 
 
@@ -32,8 +26,9 @@ class clienteControlador{
 			case 'eliminar':
 				$this->eliminar();
 				break;
-
-
+			case 'listar':
+				$this->listar();
+				break;
 			default:
 				break;
 			;
@@ -72,21 +67,7 @@ class clienteControlador{
 												$cdOrigen,$estadoOrigen,$municipioOrigen,$rfc);
 
 			if ($resultado) {
-				$query = "INSERT INTO `Cliente`(`clienteId`, `nombre`, `apellidoPaterno`, `apellidoMaterno`, `calle`, `numeroInterior`,
-												 `numeroExterior`, `colonia`, `cp`, `municipio`, `fechaNacimiento`, `sexo`, `nacionalidad`,
-												  `estado`, `estadoCivil`, `oficio`, `ciudadOrigen`, `municipioOrigen`, `estadoOrigen`, `rfc`)
-												  VALUES ('$clienteId','$nombre','$apellidoP','$apellidoM','$calle','$numeroInt','$numeroExt',
-												  '$colonia','$cp','$municipio','$fechaNac','$sexo','$nacionalidad','$estado','$estadoCivil',
-												  '$oficio','$cdOrigen','$municipioOrigen','$municipioOrigen','$rfc')";
-				$result = $this->bd_driver->query($query);
-
-				if ($this->bd_driver->error) {
-					echo "error en query";
-					require('Vista/Error.html');
-				}else{
-					require('Vista/clienteInsertado.html');
-				}
-
+				require('Vista/clienteInsertado.html');
 			}else{
 				echo "error en datos";
 				require('Vista/Error.html');
@@ -99,6 +80,35 @@ class clienteControlador{
 
 	function eliminar(){
 
+	}
+
+	function listar(){
+		$clientes = $this->modelo->listar();
+
+		$vista = file_get_contents("./Vista/clientes.html");
+		$inicio_fila = strrpos($vista,'<tr>');
+		$final_fila = strrpos($vista,'</tr>') + 5;
+		$fila = substr($vista,$inicio_fila,$final_fila-$inicio_fila);
+
+		$filas = '';
+		foreach ($clientes as $row) {
+			$new_fila = $fila;
+			$diccionario = array(
+				'{clienteId}' => $row['clienteId'],
+				'{nombre}' => $row['nombre'],
+				'{municipio}' => $row['municipio'],
+				'{colonia}' => $row['colonia'],
+				'{rfc}' => $row['rfc']);
+			$new_fila = strtr($new_fila,$diccionario);
+			$filas .= $new_fila;
+		}
+
+		$vista = str_replace($fila, $filas, $vista);
+		$data = array(
+					'contenido' => $vista
+				);
+
+		$this->crearLista($data);
 	}
 }
 

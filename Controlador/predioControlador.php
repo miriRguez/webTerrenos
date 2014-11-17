@@ -1,26 +1,20 @@
 <?php
+require('controladorStandar.php');
 
-class predioControlador{
+class predioControlador extends controladorStandar {
 	private $modelo;
-	public $bd_driver;
 
-	function __construct(){
+	function __construct()
+	{
 		require('Modelo/predioModelo.php');
-		require('config.inc');
-		$this->bd_driver = new mysqli(DB_HOST,DB_USER,DB_PASSWORD,DB_NAM);
-
-		if ($this->bd_driver->connect_errno){
-			printf("conexion fallida %s/n",mysql_connect_error());
-			exit();
-		}
-
 		$this->modelo = new predioModelo();
+
 	}
-
-
 	function run(){
 		switch ($_REQUEST['accion']) {
 			case 'insertar':
+					$this->insertar();
+				/*
 				if($this->estaLogeado() && $this->esAdmin() ) {
 					$this->insertar();
 				}else{
@@ -29,7 +23,7 @@ class predioControlador{
 					}else{
 						require('view/errorAcceso.php');
 					}
-				}
+				}*/
 
 				break;
 
@@ -39,8 +33,9 @@ class predioControlador{
 			case 'eliminar':
 				$this->eliminar();
 				break;
-
-
+			case 'listar':
+				$this->listar();
+				break;
 			default:
 				break;
 			;
@@ -49,23 +44,13 @@ class predioControlador{
 	function insertar(){
 		require('funciones.php');
 		$validar = new validar();
-		$idPredio = $validar->validarNumero($_REQUEST['idPredio']);
 		$nombre = $validar->validarNombre($_REQUEST['nombre']);
 		$municipio = $validar->validarNombre($_REQUEST['municipio']);
 		$colonia = $validar->validarNombre($_REQUEST['colonia']);
 
-		$resultado = $this->modelo->insertar($idPredio,$nombre,$municipio ,$colonia);
+		$resultado = $this->modelo->insertar($nombre,$municipio ,$colonia);
 		if ($resultado) {
-			$query = "INSERT INTO `Predio`(`predioId`, `nombre`, `municipio`, `colonia`) VALUES ('$idPredio','$nombre','$municipio' ,'$colonia')";
-			$result = $this->bd_driver->query($query);
-
-			if ($this->bd_driver->error) {
-				echo "eror query";
-				require('Vista/Error.html');
-			}else{
 				require('Vista/predioInsertado.html');
-			}
-
 		}else{
 			echo "error en datos";
 			require('Vista/Error.html');
@@ -78,6 +63,35 @@ class predioControlador{
 	}
 
 	function eliminar($idPredio){
+
+	}
+
+	function listar(){
+		$predios = $this->modelo->listar();
+
+		$vista = file_get_contents("./Vista/predios.html");
+		$inicio_fila = strrpos($vista,'<tr>');
+		$final_fila = strrpos($vista,'</tr>') + 5;
+		$fila = substr($vista,$inicio_fila,$final_fila-$inicio_fila);
+
+		$filas = '';
+		foreach ($predios as $row) {
+			$new_fila = $fila;
+			$diccionario = array(
+				'{predioId}' => $row['predioId'],
+				'{nombre}' => $row['nombre'],
+				'{municipio}' => $row['municipio'],
+				'{colonia}' => $row['colonia']);
+			$new_fila = strtr($new_fila,$diccionario);
+			$filas .= $new_fila;
+		}
+
+		$vista = str_replace($fila, $filas, $vista);
+		$data = array(
+					'contenido' => $vista
+				);
+
+		$this->crearLista($data);
 
 	}
 }

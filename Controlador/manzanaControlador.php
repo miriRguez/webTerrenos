@@ -52,6 +52,8 @@ class manzanaControlador extends controladorStandar{
 			case 'eliminar':
 				$this->eliminar();
 				break;
+			case 'listar':
+				$this->listar();
 
 
 			default:
@@ -63,15 +65,20 @@ class manzanaControlador extends controladorStandar{
 	function insertar(){
 		require('funciones.php');
 		$validar = new validar();
-		$numero = $validar->validarNumero($_REQUEST['numero']);
-		$idPredio = $validar->validarNumero($_REQUEST['idPredio']);
+
+		if (isset($_POST['numero'])) {
+			$numero = $validar->validarNumero($_POST['numero']);
+		}
+		if (isset($_POST['idPredio'])) {
+			$idPredio = $validar->validarNumero($_REQUEST['idPredio']);
+		}
+
 	//hacemo la validacion de que exista el id del predio
 
 		$resultado = $this->modelo->insertar($numero,$idPredio);
 
 		if ($resultado) {
-			$query = "INSERT INTO `Manzana`( `numero`, `predioId`) VALUES ('$numero','$idPredio')";
-			$result = $this->bd_driver->query($query);
+
 
 			if ($this->bd_driver->error) {
 				echo "error en query ";
@@ -90,6 +97,11 @@ class manzanaControlador extends controladorStandar{
 		}
 
 		function eliminar($idManzana){
+
+		}
+
+		function listar($idPredio){
+		//	$query =
 
 		}
 

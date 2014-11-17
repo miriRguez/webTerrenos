@@ -1,31 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Inciar sesi&oacute;n</title>
-</head>
-<body>
-	<fieldset>
-		<legend>Inicia sesi&oacute;n</legend>
-		<form method = "POST" action ="../index.php?ctrl=iniciarSesion&accion=iniciar">
-			<label for = "usuario">Correo del usuario: </label>
-			<input type = "text" name ="usuarioEmail" id = "usuario"/>
-			<label for = "password">Contrase&ntildea: </label>
-			<input type = "password" name = "password" id = "password"/>
-			<input type = "submit" value = "Iniciar sesi&oacute;n"/>
-		</form>
-	</fieldset>
-
-	<fieldset>
-			<legend>&iquest;No estas Regustrado? Regitrate</legend>
-				<form method = "POST" action ="../index.php?ctrl=usuario&accion=insertar">
-					<label for = "nombre">Nombre: </label>
-					<input type = "text" name ="nombre" id = "nombre"/>
-					<label for = "usuario">Correo: </label>
-					<input type = "text" name ="usuarioEmail" id = "usuarioEmail"/>
-					<label for = "password">Contrase&ntildea: </label>
-					<input type = "password" name = "password" id = "password"/>
-	     			<button type="submit">Registrate</button>
-			</form>
-	</fieldset>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+        <link rel="stylesheet" type="text/css" href="/Vista/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="/Vista/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="/Vista/mine/css/banner.css" />
+    </head>
+
+    <body>
+        <div class="container" id="login">
+                    <h1 class="customheader text-center">Ingresar</h1>
+                    <div class="row">
+                        <form role="form" method = "POST" action = "../../index.php?ctrl=iniciarSesion&accion=iniciar">
+                            <div>
+                                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Campos obligatorios</strong></div>
+                                <div class="form-group">
+                                    <label for="usuarioEmail">E-mail</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" name="usuarioEmail" id="usuarioEmail" placeholder="Ingresa tu correo" required>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for= "password">Contraseña</label>
+                                    <div class="input-group">
+                                        <input type="password" class= "form-control" name= "password" id= "password" placeholder="Contraseña..." required>
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                                    </div>
+                                </div>
+                                <input type = "submit" class = "btn btn-success" value = "Ingresar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </body>
 </html>

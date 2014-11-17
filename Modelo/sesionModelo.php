@@ -14,10 +14,8 @@ class sesionModelo{
 
 	function iniciarSesion($usuarioEmail,$password){
 
-		$this->usuarioEmail = $usuarioEmail;
-		$this->password = $password;
-		$this->mysqli->escape_string($this->usuarioEmail);
-		$this->mysqli->escape_string($this->password);
+		$usuarioEmail =	$this->mysqli->escape_string($usuarioEmail);
+		$password = $this->mysqli->escape_string($password);
 
 		$query = "SELECT `usuarioId` FROM `Usuario` WHERE `usuarioEmail` = '$usuarioEmail' AND `password` = '$password'";
 
@@ -34,7 +32,7 @@ class sesionModelo{
 				return true;
 			}
 			else{
-				die('Usuario no registrado!');
+				die('Los datos son incorrectos!');
 			}
 
 		}
@@ -47,7 +45,7 @@ class sesionModelo{
 		return TRUE;
 	}
 
-	function cerrarSesion($sesionId){
+	function cerrarSesion(){
 		if(!isset($_SESSION['usuarioEmail']))
 		{
 			echo "No hay ninguna sesion iniciada";
@@ -56,6 +54,7 @@ class sesionModelo{
 		}
 		else
 		{
+			session_unset();
 			session_destroy();
 			return TRUE;
 

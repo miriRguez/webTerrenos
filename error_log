@@ -1,0 +1,963 @@
+[25-Sep-2014 03:31:05 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 55
+[25-Sep-2014 03:40:38 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 55
+[25-Sep-2014 03:57:33 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 55
+[25-Sep-2014 03:57:51 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 55
+[25-Sep-2014 03:57:57 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 55
+[25-Sep-2014 03:58:21 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 55
+[25-Sep-2014 04:09:13 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:09:20 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:09:27 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:09:34 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:09:42 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:09:47 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:09:51 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:09:56 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:10:00 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:10:04 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:10:45 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:11:13 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:20:32 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 39
+[25-Sep-2014 04:20:32 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 39
+[25-Sep-2014 04:21:32 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 39
+[25-Sep-2014 04:21:32 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 39
+[25-Sep-2014 04:24:04 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:25:26 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:26:26 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:26:43 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:27:06 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:27:39 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:27:40 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 04:27:46 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 12:46:17 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[25-Sep-2014 13:27:30 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 11
+[25-Sep-2014 13:27:52 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 81
+[25-Sep-2014 13:29:03 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 11
+[25-Sep-2014 13:29:17 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 11
+[25-Sep-2014 13:32:05 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 11
+[25-Sep-2014 13:32:27 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[25-Sep-2014 13:32:56 UTC] PHP Fatal error:  Class 'mysqli' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:33:11 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 5
+[30-Sep-2014 05:33:11 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[30-Sep-2014 05:33:11 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[30-Sep-2014 05:33:31 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'http://www.dyscom.mx/' (25) in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:33:31 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 13
+[30-Sep-2014 05:33:45 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 5
+[30-Sep-2014 05:33:45 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[30-Sep-2014 05:33:45 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 56
+[30-Sep-2014 05:35:22 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'http://www.dyscom.mx/' (25) in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:35:22 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 13
+[30-Sep-2014 05:35:45 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx_kioriy'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:35:45 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 13
+[30-Sep-2014 05:56:08 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:56:08 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:56:08 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:56:08 UTC] PHP Notice:  Use of undefined constant DB_NAM - assumed 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:56:33 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (110) in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 05:56:33 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 13
+[30-Sep-2014 05:58:42 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/dyscommx/public_html/pvTerrenos/index.php on line 5
+[30-Sep-2014 05:59:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/dyscommx/public_html/pvTerrenos/index.php on line 5
+[30-Sep-2014 06:00:16 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:00:16 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:00:16 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:00:16 UTC] PHP Notice:  Use of undefined constant DB_NAM - assumed 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:00:21 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:03:07 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on 'ns143.neubox.net' (110) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:08:00 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'http://www.dyscom.mx/' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:10:41 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'http://www.dyscom.mx/' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:11:05 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'mysql.main-hosting.com' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:18:26 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'mysql.main-hosting.com' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:18:52 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx_kioriy'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:22:50 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:34:31 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:34:53 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:35:02 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:38:30 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx@localhost'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:39:19 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx@localhost'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:40:26 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx_kioriy'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:48:03 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx_kioriy'@'server106.neubox.net' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:49:03 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'dyscommx'@'localhost' (using password: YES) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[30-Sep-2014 06:58:27 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 15
+[30-Sep-2014 06:58:27 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[30-Sep-2014 06:58:27 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[30-Sep-2014 06:58:27 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on 'ns143.neubox.net' (110) in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 06:58:27 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 13
+[30-Sep-2014 07:00:04 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 42
+[30-Sep-2014 07:00:04 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 42
+[30-Sep-2014 07:00:48 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2003): Can't connect to MySQL server on 'ns143.neubox.net' (110) in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 10
+[30-Sep-2014 07:00:48 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 13
+[30-Sep-2014 07:02:04 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 42
+[30-Sep-2014 07:02:04 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 42
+[30-Sep-2014 07:02:37 UTC] PHP Warning:  require(/Vsita/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 55
+[30-Sep-2014 07:02:37 UTC] PHP Fatal error:  require(): Failed opening required '/Vsita/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 55
+[30-Sep-2014 07:02:59 UTC] PHP Warning:  require(/Vsita/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 55
+[30-Sep-2014 07:02:59 UTC] PHP Fatal error:  require(): Failed opening required '/Vsita/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 55
+[30-Sep-2014 07:03:22 UTC] PHP Warning:  require(/Vsita/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 55
+[30-Sep-2014 07:03:22 UTC] PHP Fatal error:  require(): Failed opening required '/Vsita/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 55
+[30-Sep-2014 07:04:14 UTC] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/dyscommx/public_html/pvTerrenos/Vista/Error.html on line 1
+[30-Sep-2014 07:06:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 50
+[30-Sep-2014 07:22:34 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 35
+[30-Sep-2014 07:22:34 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 35
+[30-Sep-2014 07:23:04 UTC] PHP Notice:  Undefined variable: idPredio in /home/dyscommx/public_html/pvTerrenos/Modelo/manzanaModelo.php on line 12
+[30-Sep-2014 07:23:04 UTC] PHP Notice:  Undefined property: manzanaControlador::$bd_driver in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 45
+[30-Sep-2014 07:23:04 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 45
+[30-Sep-2014 07:37:45 UTC] PHP Warning:  Missing argument 4 for predioModelo::insertar(), called in /home/dyscommx/public_html/pvTerrenos/Controlador/predioControlador.php on line 49 and defined in /home/dyscommx/public_html/pvTerrenos/Modelo/predioModelo.php on line 10
+[30-Sep-2014 07:37:45 UTC] PHP Notice:  Undefined variable: colonia in /home/dyscommx/public_html/pvTerrenos/Modelo/predioModelo.php on line 14
+[30-Sep-2014 07:54:56 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 35
+[30-Sep-2014 07:54:56 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 35
+[30-Sep-2014 07:56:58 UTC] PHP Notice:  Undefined variable: colindanciaOeste in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 48
+[30-Sep-2014 07:56:58 UTC] PHP Notice:  Undefined variable: conlindanciaNorte in /home/dyscommx/public_html/pvTerrenos/Modelo/loteModelo.php on line 22
+[30-Sep-2014 07:56:58 UTC] PHP Notice:  Undefined variable: colindanciaOeste in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 55
+[30-Sep-2014 07:56:58 UTC] PHP Notice:  Undefined property: loteControlador::$bd_driver in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 07:56:58 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 07:57:59 UTC] PHP Notice:  Undefined variable: colindanciaOeste in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 48
+[30-Sep-2014 07:57:59 UTC] PHP Notice:  Undefined variable: conlindanciaNorte in /home/dyscommx/public_html/pvTerrenos/Modelo/loteModelo.php on line 22
+[30-Sep-2014 07:57:59 UTC] PHP Notice:  Undefined variable: colindanciaOeste in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 55
+[30-Sep-2014 07:57:59 UTC] PHP Notice:  Undefined property: loteControlador::$bd_driver in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 07:57:59 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 07:59:05 UTC] PHP Notice:  Undefined variable: conlindanciaNorte in /home/dyscommx/public_html/pvTerrenos/Modelo/loteModelo.php on line 22
+[30-Sep-2014 07:59:05 UTC] PHP Notice:  Undefined property: loteControlador::$bd_driver in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 07:59:05 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 07:59:54 UTC] PHP Notice:  Undefined property: loteControlador::$bd_driver in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 07:59:54 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 08:00:57 UTC] PHP Notice:  Undefined property: loteControlador::$bd_driver in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 08:00:57 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 56
+[30-Sep-2014 08:01:11 UTC] PHP Fatal error:  Class 'loteModelo' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/loteControlador.php on line 18
+[30-Sep-2014 08:40:47 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[30-Sep-2014 08:40:47 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[30-Sep-2014 08:41:07 UTC] PHP Notice:  Undefined index: clienteId in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 49
+[30-Sep-2014 08:41:43 UTC] PHP Notice:  Undefined index: clienteId in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 49
+[30-Sep-2014 08:42:47 UTC] PHP Notice:  Undefined index: clienteId in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 49
+[06-Oct-2014 00:54:59 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 15
+[06-Oct-2014 00:54:59 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[06-Oct-2014 00:54:59 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[06-Oct-2014 02:28:44 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 15
+[06-Oct-2014 02:28:44 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[06-Oct-2014 02:28:44 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 66
+[06-Oct-2014 02:31:00 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 18
+[06-Oct-2014 02:31:00 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 69
+[06-Oct-2014 02:31:00 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 69
+[06-Oct-2014 02:56:08 UTC] PHP Notice:  Use of undefined constant DB_NAM - assumed 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 10
+[06-Oct-2014 02:56:08 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'dyscommx_kioriy'@'localhost' to database 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 10
+[06-Oct-2014 02:56:08 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 13
+[06-Oct-2014 03:04:36 UTC] PHP Notice:  Use of undefined constant DB_NAM - assumed 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 10
+[06-Oct-2014 03:04:36 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'dyscommx_kioriy'@'localhost' to database 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 10
+[06-Oct-2014 03:04:36 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 13
+[06-Oct-2014 03:06:29 UTC] PHP Notice:  Use of undefined constant DB_NAM - assumed 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 10
+[06-Oct-2014 03:06:29 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'dyscommx_kioriy'@'localhost' to database 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 10
+[06-Oct-2014 03:06:29 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/clienteControlador.php on line 13
+[06-Oct-2014 03:08:54 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 18
+[06-Oct-2014 03:08:54 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 72
+[06-Oct-2014 03:08:54 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 72
+[06-Oct-2014 03:11:17 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:11:17 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:11:17 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:11:17 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:11:17 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:11:17 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:14:37 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:14:37 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:14:37 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:14:37 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:14:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:14:37 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:15:04 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[06-Oct-2014 03:15:04 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:15:04 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:15:39 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[06-Oct-2014 03:15:39 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:15:39 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:16:15 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[06-Oct-2014 03:16:15 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:16:15 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:17:19 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[06-Oct-2014 03:17:19 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:17:19 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:21:08 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[06-Oct-2014 03:21:08 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:21:08 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 03:31:27 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:31:27 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:31:27 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:31:27 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:31:27 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (2) in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[06-Oct-2014 03:31:27 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:32:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 6720 bytes) in /home/dyscommx/public_html/pvTerrenos/index.php on line 0
+[06-Oct-2014 03:33:53 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:35:03 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:35:38 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:36:33 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:38:26 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:38:29 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:38:58 UTC] PHP Fatal error:  Call to undefined method mysqli::connect_error() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:42:53 UTC] PHP Fatal error:  Call to undefined method mysqli::onnect_errnor() in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:43:01 UTC] PHP Notice:  Undefined property: mysqli::$onnect_errnor in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:43:01 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 18
+[06-Oct-2014 03:43:01 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 72
+[06-Oct-2014 03:43:01 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 72
+[06-Oct-2014 03:43:18 UTC] PHP Notice:  Undefined property: mysqli::$connect_errnor in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:43:18 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 18
+[06-Oct-2014 03:43:18 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 72
+[06-Oct-2014 03:43:18 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 72
+[06-Oct-2014 03:44:20 UTC] PHP Notice:  Undefined property: mysqli::$connect_errnor in /home/dyscommx/public_html/pvTerrenos/index.php on line 6
+[06-Oct-2014 03:44:20 UTC] PHP Notice:  Constant DB_HOST already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 2
+[06-Oct-2014 03:44:20 UTC] PHP Notice:  Constant DB_NAME already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 3
+[06-Oct-2014 03:44:20 UTC] PHP Notice:  Constant DB_USER already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 4
+[06-Oct-2014 03:44:20 UTC] PHP Notice:  Constant DB_PASSWORD already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 5
+[06-Oct-2014 06:39:53 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[06-Oct-2014 06:39:53 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 06:39:53 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[06-Oct-2014 06:49:47 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 15
+[06-Oct-2014 06:51:31 UTC] PHP Warning:  require(/BD.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 16
+[06-Oct-2014 06:51:31 UTC] PHP Fatal error:  require(): Failed opening required '/BD.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 16
+[07-Oct-2014 13:39:29 UTC] PHP Warning:  require(PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:39:29 UTC] PHP Warning:  require(PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:39:29 UTC] PHP Fatal error:  require(): Failed opening required 'PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:40:37 UTC] PHP Warning:  require(PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:40:37 UTC] PHP Warning:  require(PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:40:37 UTC] PHP Fatal error:  require(): Failed opening required 'PHPMailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:13 UTC] PHP Warning:  require(/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:13 UTC] PHP Fatal error:  require(): Failed opening required '/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:32 UTC] PHP Warning:  require(PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:32 UTC] PHP Warning:  require(PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:32 UTC] PHP Fatal error:  require(): Failed opening required 'PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:52 UTC] PHP Warning:  require(/PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:52 UTC] PHP Fatal error:  require(): Failed opening required '/PHPMailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:54 UTC] PHP Warning:  require(/PHPMailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[07-Oct-2014 13:49:54 UTC] PHP Fatal error:  require(): Failed opening required '/PHPMailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/correoMailer.php on line 2
+[08-Oct-2014 22:32:08 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[08-Oct-2014 22:32:08 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[08-Oct-2014 22:32:08 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[09-Oct-2014 17:37:45 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[09-Oct-2014 17:37:45 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[09-Oct-2014 17:37:45 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[14-Oct-2014 21:56:06 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[14-Oct-2014 21:56:06 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[14-Oct-2014 21:56:06 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[14-Oct-2014 22:00:18 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[14-Oct-2014 22:00:18 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[14-Oct-2014 22:00:52 UTC] PHP Notice:  Use of undefined constant DB_NAM - assumed 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 10
+[14-Oct-2014 22:00:52 UTC] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'dyscommx_kioriy'@'localhost' to database 'DB_NAM' in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 10
+[14-Oct-2014 22:00:52 UTC] PHP Fatal error:  Call to undefined function mysql_connect_error() in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 13
+[14-Oct-2014 22:09:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 86
+[14-Oct-2014 22:09:38 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 14
+[14-Oct-2014 22:10:32 UTC] PHP Fatal error:  Call to undefined method BD::query() in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 63
+[15-Oct-2014 03:28:21 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[15-Oct-2014 03:28:21 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[15-Oct-2014 03:28:21 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[19-Oct-2014 19:26:43 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 19
+[19-Oct-2014 19:26:43 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[19-Oct-2014 19:26:43 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 73
+[19-Oct-2014 20:48:28 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/sesionControlador.php on line 5
+[20-Oct-2014 02:49:42 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/sesionControlador.php on line 5
+[20-Oct-2014 03:58:58 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 5
+[20-Oct-2014 03:59:07 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 5
+[20-Oct-2014 04:03:50 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 24
+[20-Oct-2014 04:03:50 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 78
+[20-Oct-2014 04:03:50 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 78
+[20-Oct-2014 04:14:01 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 25
+[20-Oct-2014 04:14:01 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:14:01 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:15:09 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 25
+[20-Oct-2014 04:15:09 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:15:09 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:16:16 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 25
+[20-Oct-2014 04:16:16 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:16:16 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:17:08 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 25
+[20-Oct-2014 04:17:08 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:17:08 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:18:22 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 25
+[20-Oct-2014 04:18:22 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:18:22 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:25:02 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 25
+[20-Oct-2014 04:25:02 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:25:02 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:28:38 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 25
+[20-Oct-2014 04:28:38 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:28:38 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 79
+[20-Oct-2014 04:28:38 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:39 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:39 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:40 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:41 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:41 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:42 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:42 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:43 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:44 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:44 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:45 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:45 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:46 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:47 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:47 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:48 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:48 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:49 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:50 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:50 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:51 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:51 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:52 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:53 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:53 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:54 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:54 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:55 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:55 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:56 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:57 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:57 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:58 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:58 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:28:59 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:00 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:00 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:01 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:02 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:02 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:08 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:09 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:09 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:10 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:11 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:11 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:11 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:12 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:12 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:13 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:14 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:14 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:15 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:15 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:16 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:16 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:17 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:18 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:18 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:19 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:19 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:20 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:21 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:21 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:22 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:22 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:55 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:56 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:57 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:29:57 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:00 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:01 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:02 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:02 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:03 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:03 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:04 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:05 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:05 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:06 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:07 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:07 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:08 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:08 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:09 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:10 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:30:10 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:31:33 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:36:29 UTC] PHP Warning:  require(../BD.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:36:29 UTC] PHP Warning:  require(../BD.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:36:29 UTC] PHP Fatal error:  require(): Failed opening required '../BD.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:36:48 UTC] PHP Warning:  require(../BD.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:36:48 UTC] PHP Warning:  require(../BD.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:36:48 UTC] PHP Fatal error:  require(): Failed opening required '../BD.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:36:59 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:36:59 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:36:59 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:36:59 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:36:59 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (25) in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:36:59 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:36:59 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:36:59 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:36:59 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:39:47 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:47 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:47 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:47 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:47 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (25) in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:47 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:39:47 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:39:47 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:39:47 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:39:54 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:54 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:54 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:54 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:54 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (25) in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:39:54 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:39:54 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:39:54 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:39:54 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:41:04 UTC] PHP Warning:  require(BD.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:41:04 UTC] PHP Warning:  require(BD.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:41:04 UTC] PHP Fatal error:  require(): Failed opening required 'BD.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 11
+[20-Oct-2014 04:41:23 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:23 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:23 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:23 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:23 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (25) in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:23 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:41:23 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:41:23 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:41:23 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:41:32 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:32 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:32 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:32 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:32 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (25) in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:41:32 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:41:32 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:41:32 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:41:32 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:42:03 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:42:03 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:42:03 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:42:03 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:42:03 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (25) in /home/dyscommx/public_html/pvTerrenos/BD.php on line 40
+[20-Oct-2014 04:42:03 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:42:03 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:42:03 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:42:03 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:47:22 UTC] PHP Fatal error:  Call to undefined method BD::getInstancia() in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 12
+[20-Oct-2014 04:47:48 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 11
+[20-Oct-2014 04:47:48 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 11
+[20-Oct-2014 04:47:48 UTC] PHP Notice:  Use of undefined constant DB_PASSWORD - assumed 'DB_PASSWORD' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 11
+[20-Oct-2014 04:47:48 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/dyscommx/public_html/pvTerrenos/BD.php on line 11
+[20-Oct-2014 04:47:48 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (25) in /home/dyscommx/public_html/pvTerrenos/BD.php on line 11
+[20-Oct-2014 04:47:48 UTC] PHP Fatal error:  Using $this when not in object context in /home/dyscommx/public_html/pvTerrenos/BD.php on line 14
+[20-Oct-2014 04:48:05 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:48:05 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:48:05 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:48:05 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:50:48 UTC] PHP Warning:  require(controller/CtrlEstandar.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[20-Oct-2014 04:50:48 UTC] PHP Warning:  require(controller/CtrlEstandar.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[20-Oct-2014 04:50:48 UTC] PHP Fatal error:  require(): Failed opening required 'controller/CtrlEstandar.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/index.php on line 4
+[20-Oct-2014 04:51:12 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 04:51:12 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 20
+[20-Oct-2014 04:51:12 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:51:12 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:51:12 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:51:12 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:51:37 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 04:51:37 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 04:51:37 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:51:37 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 04:57:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 8
+[20-Oct-2014 04:58:46 UTC] PHP Fatal error:  Call to undefined function iniciarSesion() in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 12
+[20-Oct-2014 04:59:23 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 39
+[20-Oct-2014 04:59:23 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 39
+[20-Oct-2014 05:00:01 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 43
+[20-Oct-2014 05:01:05 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 43
+[20-Oct-2014 05:01:41 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 43
+[20-Oct-2014 05:01:54 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 05:01:54 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:01:54 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:01:54 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:02:20 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 05:02:20 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:02:20 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:02:20 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:03:28 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 05:03:28 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:03:28 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:03:28 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:03:32 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 05:03:32 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:03:32 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:03:32 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:04:27 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 26
+[20-Oct-2014 05:04:27 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:04:27 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:04:27 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:05:45 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:05:45 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:05:45 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:05:45 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:07:21 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:07:21 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:07:21 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:07:21 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:08:27 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 44
+[20-Oct-2014 05:09:08 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 44
+[20-Oct-2014 05:10:45 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 47
+[20-Oct-2014 05:11:08 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:11:08 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 21
+[20-Oct-2014 05:11:08 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 34
+[20-Oct-2014 05:11:08 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 34
+[20-Oct-2014 05:11:31 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 47
+[20-Oct-2014 05:12:09 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 47
+[20-Oct-2014 05:12:23 UTC] PHP Notice:  Undefined variable: validar in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 13
+[20-Oct-2014 05:12:23 UTC] PHP Fatal error:  Call to a member function validarNombre() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 13
+[20-Oct-2014 05:12:51 UTC] PHP Notice:  Undefined variable: validar in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 05:12:51 UTC] PHP Fatal error:  Call to a member function validarNombre() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 05:13:02 UTC] PHP Notice:  Undefined variable: validar in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 05:13:02 UTC] PHP Fatal error:  Call to a member function validarNombre() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 15
+[20-Oct-2014 05:13:54 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 17
+[20-Oct-2014 05:14:59 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 47
+[20-Oct-2014 05:15:27 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 47
+[20-Oct-2014 05:15:34 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 47
+[20-Oct-2014 05:16:34 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:16:34 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 25
+[20-Oct-2014 05:16:34 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 05:16:34 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 05:17:50 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:17:50 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:17:50 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:17:50 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:18:32 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:18:32 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:18:32 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:18:32 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:19:29 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:19:29 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:19:29 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:19:29 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:20:55 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:20:55 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:20:55 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:20:55 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:21:51 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:21:51 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:21:51 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:21:51 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:21:51 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:21:51 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:21:51 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:21:51 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:22:37 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:22:37 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:22:37 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:22:37 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:22:42 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/sesionControlador.php on line 5
+[20-Oct-2014 05:23:32 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:23:32 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:23:32 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:23:32 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:23:33 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:23:33 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:23:33 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:23:33 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:23:38 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/sesionControlador.php on line 5
+[20-Oct-2014 05:24:30 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:24:30 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:24:30 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:24:30 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:29:19 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:29:19 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:29:19 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:29:19 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:31:03 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:31:03 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:31:03 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:31:03 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:31:03 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:31:03 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:31:03 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:31:03 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:32:13 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:32:13 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:32:13 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:32:13 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:32:14 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:32:14 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 20
+[20-Oct-2014 05:32:14 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:32:14 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 33
+[20-Oct-2014 05:38:04 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 47
+[20-Oct-2014 05:39:37 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 21
+[20-Oct-2014 05:39:37 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 34
+[20-Oct-2014 05:39:37 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 34
+[20-Oct-2014 05:52:18 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 13
+[20-Oct-2014 05:52:18 UTC] PHP Notice:  Undefined index: password in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 05:52:18 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 05:52:18 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 05:52:18 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 05:52:18 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 05:57:47 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 53
+[20-Oct-2014 05:57:48 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 53
+[20-Oct-2014 05:58:42 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 17
+[20-Oct-2014 05:58:42 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 55
+[20-Oct-2014 05:58:42 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 17
+[20-Oct-2014 05:58:42 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 55
+[20-Oct-2014 06:00:39 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:00:39 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 23
+[20-Oct-2014 06:00:39 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 06:00:39 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 06:00:40 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:00:40 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 23
+[20-Oct-2014 06:00:40 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 06:00:40 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 06:01:49 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:01:49 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 24
+[20-Oct-2014 06:01:49 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 37
+[20-Oct-2014 06:01:49 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 37
+[20-Oct-2014 06:01:50 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:01:50 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 24
+[20-Oct-2014 06:01:50 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 37
+[20-Oct-2014 06:01:50 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 37
+[20-Oct-2014 06:02:14 UTC] PHP Warning:  require(/Vista/login.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:02:14 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/login.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:02:27 UTC] PHP Warning:  require(../Vista/login.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:02:27 UTC] PHP Warning:  require(../Vista/login.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:02:27 UTC] PHP Fatal error:  require(): Failed opening required '../Vista/login.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:04:26 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 52
+[20-Oct-2014 06:04:58 UTC] PHP Notice:  Undefined index: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 52
+[20-Oct-2014 06:06:38 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:06:38 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 28
+[20-Oct-2014 06:06:38 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 41
+[20-Oct-2014 06:06:38 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 41
+[20-Oct-2014 06:07:41 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:07:41 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 29
+[20-Oct-2014 06:07:41 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:07:41 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:08:41 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:08:41 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 29
+[20-Oct-2014 06:08:41 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:08:41 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:08:52 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:08:52 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 29
+[20-Oct-2014 06:08:52 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:08:52 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:10:39 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:10:39 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 23
+[20-Oct-2014 06:10:39 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 06:10:39 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 06:22:45 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:22:45 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 29
+[20-Oct-2014 06:22:45 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:22:45 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 42
+[20-Oct-2014 06:24:47 UTC] PHP Warning:  include(Location:Vista/login.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:24:47 UTC] PHP Warning:  include(Location:Vista/login.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:24:47 UTC] PHP Warning:  include(): Failed opening 'Location:Vista/login.html' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 14
+[20-Oct-2014 06:24:47 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:24:47 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 06:24:47 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:24:47 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:25:02 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:25:02 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 06:25:02 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:25:02 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:25:08 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:25:08 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 06:25:08 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:25:08 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:27:16 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:27:16 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 32
+[20-Oct-2014 06:27:16 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 45
+[20-Oct-2014 06:27:16 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 45
+[20-Oct-2014 06:32:55 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:32:55 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 06:32:55 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:32:55 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:48:43 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:48:43 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 06:48:43 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:48:43 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:54:33 UTC] PHP Notice:  Constant DB_HOST already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 2
+[20-Oct-2014 06:54:33 UTC] PHP Notice:  Constant DB_NAME already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 3
+[20-Oct-2014 06:54:33 UTC] PHP Notice:  Constant DB_USER already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 4
+[20-Oct-2014 06:54:33 UTC] PHP Notice:  Constant DB_PASSWORD already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 5
+[20-Oct-2014 06:56:27 UTC] PHP Notice:  Constant DB_HOST already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 2
+[20-Oct-2014 06:56:27 UTC] PHP Notice:  Constant DB_NAME already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 3
+[20-Oct-2014 06:56:27 UTC] PHP Notice:  Constant DB_USER already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 4
+[20-Oct-2014 06:56:27 UTC] PHP Notice:  Constant DB_PASSWORD already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 5
+[20-Oct-2014 06:56:27 UTC] PHP Fatal error:  Call to undefined method manzanaControlador::estaLogeado() in /home/dyscommx/public_html/pvTerrenos/Controlador/manzanaControlador.php on line 35
+[20-Oct-2014 06:57:13 UTC] PHP Notice:  Constant DB_HOST already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 2
+[20-Oct-2014 06:57:13 UTC] PHP Notice:  Constant DB_NAME already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 3
+[20-Oct-2014 06:57:13 UTC] PHP Notice:  Constant DB_USER already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 4
+[20-Oct-2014 06:57:13 UTC] PHP Notice:  Constant DB_PASSWORD already defined in /home/dyscommx/public_html/pvTerrenos/config.inc on line 5
+[20-Oct-2014 06:57:13 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 67
+[20-Oct-2014 06:57:13 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 67
+[20-Oct-2014 06:59:58 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 06:59:58 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 06:59:58 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 06:59:58 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:01:51 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:01:51 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 07:01:51 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:01:51 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:02:50 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:02:50 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 07:02:50 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:02:50 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:02:53 UTC] PHP Notice:  Undefined variable: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 67
+[20-Oct-2014 07:02:53 UTC] PHP Fatal error:  Call to a member function run() on a non-object in /home/dyscommx/public_html/pvTerrenos/index.php on line 67
+[20-Oct-2014 07:04:22 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:04:22 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 07:04:22 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:04:22 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:13:46 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:13:46 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 07:13:46 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:13:46 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:14:53 UTC] PHP Notice:  Undefined variable: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 56
+[20-Oct-2014 07:14:53 UTC] PHP Notice:  Undefined variable: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 17
+[20-Oct-2014 07:14:53 UTC] PHP Notice:  Undefined variable: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 22
+[20-Oct-2014 07:14:53 UTC] PHP Catchable fatal error:  Object of class sesionModelo could not be converted to string in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 26
+[20-Oct-2014 07:15:25 UTC] PHP Notice:  Undefined variable: usuario in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 56
+[20-Oct-2014 07:15:25 UTC] PHP Notice:  Undefined variable: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 17
+[20-Oct-2014 07:15:25 UTC] PHP Notice:  Undefined variable: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 22
+[20-Oct-2014 07:15:25 UTC] PHP Catchable fatal error:  Object of class sesionModelo could not be converted to string in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 26
+[20-Oct-2014 07:21:22 UTC] PHP Catchable fatal error:  Object of class sesionModelo could not be converted to string in /home/dyscommx/public_html/pvTerrenos/Modelo/sesionModelo.php on line 26
+[20-Oct-2014 07:25:33 UTC] PHP Warning:  require(/Vista/inicioSesion.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 61
+[20-Oct-2014 07:25:33 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/inicioSesion.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 61
+[20-Oct-2014 07:26:19 UTC] PHP Warning:  require(../Vista/inicioSesion.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 61
+[20-Oct-2014 07:26:19 UTC] PHP Warning:  require(../Vista/inicioSesion.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 61
+[20-Oct-2014 07:26:19 UTC] PHP Fatal error:  require(): Failed opening required '../Vista/inicioSesion.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 61
+[20-Oct-2014 07:33:03 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:33:03 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 07:33:03 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:33:03 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:34:04 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:34:04 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 27
+[20-Oct-2014 07:34:04 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:34:04 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 40
+[20-Oct-2014 07:58:07 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:58:07 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 07:58:07 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 07:58:07 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 07:59:00 UTC] PHP Fatal error:  Class 'BD' not found in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 15
+[20-Oct-2014 07:59:51 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:59:51 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 07:59:51 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 07:59:51 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 07:59:51 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 07:59:51 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 07:59:51 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 07:59:51 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 08:00:04 UTC] PHP Warning:  require(/funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 37
+[20-Oct-2014 08:00:04 UTC] PHP Fatal error:  require(): Failed opening required '/funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 37
+[20-Oct-2014 08:01:14 UTC] PHP Warning:  require(../funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 37
+[20-Oct-2014 08:01:14 UTC] PHP Warning:  require(../funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 37
+[20-Oct-2014 08:01:14 UTC] PHP Fatal error:  require(): Failed opening required '../funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 37
+[20-Oct-2014 08:02:29 UTC] PHP Notice:  Undefined property: UsuarioModelo::$nombe in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 28
+[20-Oct-2014 08:02:29 UTC] PHP Catchable fatal error:  Object of class UsuarioModelo could not be converted to string in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 36
+[20-Oct-2014 08:02:55 UTC] PHP Catchable fatal error:  Object of class UsuarioModelo could not be converted to string in /home/dyscommx/public_html/pvTerrenos/Modelo/usuarioModelo.php on line 36
+[20-Oct-2014 08:03:45 UTC] PHP Warning:  require(/Vista/usuarioInsertado.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 54
+[20-Oct-2014 08:03:45 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/usuarioInsertado.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 54
+[20-Oct-2014 08:06:52 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 08:06:52 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 08:06:52 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 08:06:52 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 08:13:27 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 08:13:27 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 08:13:27 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 08:13:27 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 08:35:40 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 08:35:40 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 08:35:40 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 08:35:40 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 08:49:22 UTC] PHP Fatal error:  Class 'correo' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 60
+[20-Oct-2014 08:51:08 UTC] PHP Fatal error:  Class 'correo' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 60
+[20-Oct-2014 08:51:36 UTC] PHP Warning:  require(../correo.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 56
+[20-Oct-2014 08:51:36 UTC] PHP Warning:  require(../correo.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 56
+[20-Oct-2014 08:51:36 UTC] PHP Fatal error:  require(): Failed opening required '../correo.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 56
+[20-Oct-2014 08:53:41 UTC] PHP Notice:  Undefined variable: mail in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 61
+[20-Oct-2014 08:53:41 UTC] PHP Fatal error:  Call to a member function send() on a non-object in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 61
+[20-Oct-2014 09:25:45 UTC] PHP Notice:  Undefined index: nombre in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 42
+[20-Oct-2014 09:25:46 UTC] PHP Notice:  Undefined index: nombre in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 42
+[20-Oct-2014 09:34:58 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:34:58 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:34:58 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:34:58 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:34:58 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:35:24 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:36:56 UTC] PHP Warning:  require(Controlador/sesionControlador.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/index.php on line 8
+[20-Oct-2014 09:36:56 UTC] PHP Warning:  require(Controlador/sesionControlador.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/index.php on line 8
+[20-Oct-2014 09:36:56 UTC] PHP Fatal error:  require(): Failed opening required 'Controlador/sesionControlador.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/index.php on line 8
+[20-Oct-2014 09:37:48 UTC] PHP Warning:  require(/Controlador/sesionControlador.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/index.php on line 8
+[20-Oct-2014 09:37:48 UTC] PHP Fatal error:  require(): Failed opening required '/Controlador/sesionControlador.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/index.php on line 8
+[20-Oct-2014 09:37:57 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:37:57 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:37:57 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:37:57 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:37:57 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:38:05 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:48:31 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:48:31 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:48:31 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:48:31 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:48:31 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:48:39 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:50:52 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:50:52 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:50:52 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:50:52 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:50:52 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:50:57 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:52:22 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:52:22 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:52:22 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:52:22 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:52:22 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:52:27 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:54:21 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:54:21 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:54:21 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:54:21 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:54:21 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:54:27 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:56:18 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:56:18 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:56:18 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:56:18 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:56:18 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:56:24 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:58:07 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:58:07 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:58:07 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:58:07 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:58:07 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:58:09 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:58:09 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 09:58:09 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 09:58:09 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:58:09 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 09:58:15 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:58:22 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:58:22 UTC] PHP Notice:  Undefined index: nombre in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 42
+[20-Oct-2014 09:58:35 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 09:58:35 UTC] PHP Notice:  Undefined index: nombre in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 42
+[20-Oct-2014 10:04:55 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:04:55 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:04:55 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:04:55 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:04:55 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:05:00 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:05:00 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:05:00 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:05:00 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:05:00 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:05:44 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:05:44 UTC] PHP Notice:  Undefined index: nombre in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 42
+[20-Oct-2014 10:15:19 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:15:19 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:15:19 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:15:19 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:15:19 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:15:40 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:15:40 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:15:40 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:15:40 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:15:40 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:16:19 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:16:19 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:16:19 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:16:19 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:16:19 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:20:21 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:20:21 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:20:21 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:20:21 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:20:21 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:22:17 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:22:17 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:22:17 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:22:17 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:22:17 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:24:36 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:24:36 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:24:36 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:24:36 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:24:36 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:24:54 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:24:54 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:24:54 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:24:54 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:24:54 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:30:11 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:30:11 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:30:11 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:30:11 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:30:11 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:31:27 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:31:27 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:31:27 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:31:27 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:31:27 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:31:27 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:31:27 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:31:27 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:31:27 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:31:27 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:31:55 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:31:55 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:31:55 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:31:55 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:31:55 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:32:00 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:32:00 UTC] PHP Warning:  Missing argument 1 for UsuarioControlador::eliminar(), called in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 25 and defined in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 98
+[20-Oct-2014 10:32:03 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:32:03 UTC] PHP Warning:  Missing argument 1 for UsuarioControlador::eliminar(), called in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 25 and defined in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 98
+[20-Oct-2014 10:32:05 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:32:05 UTC] PHP Warning:  Missing argument 1 for UsuarioControlador::eliminar(), called in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 25 and defined in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 98
+[20-Oct-2014 10:32:06 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:32:06 UTC] PHP Warning:  Missing argument 1 for UsuarioControlador::eliminar(), called in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 25 and defined in /home/dyscommx/public_html/pvTerrenos/Controlador/usuarioControlador.php on line 98
+[20-Oct-2014 10:32:34 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:32:34 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:32:34 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:32:34 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:32:34 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 35
+[20-Oct-2014 10:32:35 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:32:37 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:10 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:27 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:27 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:33:27 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:33:27 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 10:33:27 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 36
+[20-Oct-2014 10:33:29 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:30 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:30 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:31 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:31 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:33:31 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:37 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:37 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:34:37 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:34:37 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 10:34:37 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 10:34:38 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:41 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:42 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:42 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:42 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:43 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:43 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:43 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:43 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:44 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:44 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:48 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:34:50 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:35:13 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:35:20 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:35:20 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:35:20 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:35:20 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 10:35:20 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 10:38:11 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:38:11 UTC] PHP Notice:  Undefined index: ctrl in /home/dyscommx/public_html/pvTerrenos/index.php on line 17
+[20-Oct-2014 10:38:11 UTC] PHP Notice:  Undefined index: accion in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 22
+[20-Oct-2014 10:38:11 UTC] PHP Warning:  require(/Vista/Error.html): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 10:38:11 UTC] PHP Fatal error:  require(): Failed opening required '/Vista/Error.html' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 38
+[20-Oct-2014 10:38:15 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:38:17 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:38:18 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:26 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:27 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:27 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:28 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:28 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:28 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:28 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:28 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13
+[20-Oct-2014 10:39:29 UTC] PHP Notice:  Undefined index: usuarioEmail in /home/dyscommx/public_html/pvTerrenos/index.php on line 13

@@ -2,79 +2,79 @@
 
 require('controladorStandar.php');
 
-class sesionControlador extends controladorStandar{
-  private $modelo;
+class sesionControlador extends controladorStandar {
+    private $modelo;
 
+    function __construct()
+    {
+        require('Modelo/sesionModelo.php');
+        $this->modelo = new sesionModelo();
 
-	function __construct(){
-		require('Modelo/sesionModelo.php');
-		$this->modelo = new sesionModelo();
+    }
 
-		if (!isset($_REQUEST['accion'])) {
-			header('Location:Vista/login.html');
+    function run()
+    {
+        if (isset($_REQUEST['accion'])) {
+            switch ($_REQUEST['accion']) {
+                case 'iniciar':
 
-		}
-	}
+                	  $this->iniciarSesion();
+                   /* if (!$this->estaLogeado()) {
+                        $this->iniciarSesion();
+                    }*/
 
+                    break;
 
+                case 'cerrar';
+                    if ($this->estaLogeado()) {
+                        $this->cerrarSesion();
+                    }
+                    break;
+                default:
+                    require('./Vista/Error.html');
+            } // switch
+        } else {
+        	$inicio = file_get_contents('./Vista/login.html');
+        	$this->crearVista($inicio);
+        }
+    }
 
-	function run(){
-		switch ($_REQUEST['accion']) {
-			case 'iniciar':
-				if (!$this->estaLogeado()) {
-					$this->iniciarSesion();
-				}
+    function iniciarSesion()
+    {
+        require('funciones.php');
+        $validar = new validar();
+        // require('Vista/login.html');
 
-				break;
-			case 'cerrar':
-					echo "entra!!!";
+        $usuarioEmail = $validar->validarEmail($_REQUEST['usuarioEmail']);
+        $password = $validar->validarCadena($_REQUEST['password']);
 
-					if ($this->estaLogeado()) {
+        $resultado = $this->modelo->iniciarSesion($usuarioEmail, $password);
 
-						$this->cerrarSesion();
-					}
-				break;
-			default:
-				require('/Vista/Error.html');
-		} // switch
+        if ($resultado) {
 
-	}
+            $_SESSION['usuarioEmail'] = $usuarioEmail;
 
-	function iniciarSesion(){
-		require('funciones.php');
-		$validar = new validar();
-		//require('Vista/login.html');
+        	$inicio = file_get_contents('./Vista/indexAlternativo.html');
+        	$this->crearVista($inicio);
 
-		$usuarioEmail = $validar->validarEmail($_REQUEST['usuarioEmail']);
-		$password = $validar-> validarCadena($_REQUEST['password']);
+        } else {
+            header('Location:Vista/Error.html');
+        }
+    }
 
-		$resutado = $this->modelo->iniciarSesion($usuarioEmail,$password);
-
-		if ($resutado) {
-			$_SESSION['sessionID'] = $usuarioEmail;
-			header('Location:Vista/index.html');
-		}else{
-			header('Location:Vista/Error.html');
-		}
-	}
-
-	function cerrar(){
-		if(!isset($_SESSION['usuarioEmail']))
-		{
-			die("No hay ninguna sesion iniciada");
-			//esto ocurre cuando la sesion caduca.
-
-		}
-		else
-		{
-			$terminar = $this-$this->modelo->cerrarSesion();
-       		if ($terminar) {
-       			echo("entra!!!");
-       			header('Location:Vista/index.html');
-
-       		}
-		}
-	}
+    function cerrarSesion()
+    {
+        if (!isset($_SESSION['usuarioEmail'])) {
+            die("No hay ninguna sesion iniciada");
+            // esto ocurre cuando la sesion caduca.
+        }else {
+            $terminar = $this->modelo->cerrarSesion();
+            if ($terminar) {
+            	$inicio = file_get_contents('./Vista/login.html');
+            	$this->crearVista($inicio);
+            }
+        }
+    }
 }
 
 ?>

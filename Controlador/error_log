@@ -1,0 +1,9 @@
+[20-Oct-2014 04:03:51 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 5
+[20-Oct-2014 04:04:33 UTC] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 5
+[20-Oct-2014 04:14:02 UTC] PHP Warning:  require(Controlador/controladorStandar.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 3
+[20-Oct-2014 04:14:02 UTC] PHP Warning:  require(Controlador/controladorStandar.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 3
+[20-Oct-2014 04:14:02 UTC] PHP Fatal error:  require(): Failed opening required 'Controlador/controladorStandar.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 3
+[20-Oct-2014 04:15:10 UTC] PHP Fatal error:  Class 'controladorStandar' not found in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 4
+[20-Oct-2014 05:14:15 UTC] PHP Warning:  require(funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 4
+[20-Oct-2014 05:14:15 UTC] PHP Warning:  require(funciones.php): failed to open stream: No such file or directory in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 4
+[20-Oct-2014 05:14:15 UTC] PHP Fatal error:  require(): Failed opening required 'funciones.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/dyscommx/public_html/pvTerrenos/Controlador/sesionControlador.php on line 4

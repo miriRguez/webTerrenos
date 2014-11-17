@@ -13,22 +13,28 @@ class UsuarioControlador  extends controladorStandar{
 
 	function run()
 	{
-		switch ($_REQUEST['accion']) {
+		if(isset($_GET['ctrl'])){
+			switch ($_GET['accion']) {
 
-			case 'insertar':
-				  $this->insertar();
-	              break;
-			case 'modificar':
-			   	  $this->modificar();
-				  break;
-			case 'eliminar':
-				  $this->eliminar();
-				  break;
+				case 'insertar':
+					  $this->insertar();
+		              break;
+				case 'modificar':
+				   	  $this->modificar();
+					  break;
+				case 'eliminar':
+					  $this->eliminar();
+					  break;
 
-			default:
-				break;
-			;
-		} // switch
+				default:
+
+					break;
+				;
+			} // switch
+		}
+		else{
+				die("no tenia nada la accion");
+		}
 
 	}
 
