@@ -2,20 +2,57 @@
 <html>
     <head>
         <meta charset="utf-8" />
+       <link rel="shortcut icon" href="/Vista/imagenes/hoshinohikaru.ico"/>
            <title>Pagina de inicio | PvTerrenos</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+        <link rel="shortcut icon" href="home.png" type="image/png" />
 
         <link rel="stylesheet" type="text/css" href="/Vista/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="/Vista/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" type="text/css" href="/Vista/mine/css/banner.css" />
     </head>
     <body>
+        <div class="banner"><img src="/Vista/imagenes/Banner1.jpg"></div>
+        <nav class="navbar navbar-inverse" role="navigation">
+             <div class="container-fluid">
+                <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                      </button>
+                      <div class="navbar-collapse collapse">
+                        <span class="sr-only">Desplegar navegación</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        <ul class="nav navbar-nav">
+                          <li><a href="./index.php?ctrl=goHome"><img class ="icono" src="/Vista/imagenes/home.png"></a></li>
+                          <li><a href="./index.php?ctrl=iniciarSesion&accion=cerrar">Cerrar Sesión</a></li>
+                        </ul>
+                      </div>
+                    
+                </div>
+                <div class="navbar-collapse collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    <ul class="nav navbar-nav">
+                    <li> </li>
+                    <li><a href="./index.php?ctrl=location">Ubicaciones</a></li>
+                    <li></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+         
         
-    	<div class="banner"><img src="/Vista/imagenes/Banner1.jpg"></div>
+    	
+       
         <div class = "page-header">
-        <div class="page-header">
-            <h1>PvTerrenos<small>|Venta de terrenos</small></h1>
-        </div>
+            <div class="page-header">
+                <h1>PvTerrenos<small>|Venta de terrenos</small></h1>
+            </div>
     </body>
+
+            
 </html>

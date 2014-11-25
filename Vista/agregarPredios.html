@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/Vista/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Vista/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/Vista/mine/css/botones.css" />
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+ </head>
+ <body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="table-responsive">
+                <form class="form-horizontal" method="POST"  action = "../../index.php?ctrl=predio&accion=insertar">
+                    <fieldset>
+                        <legend class="text-center header">Nuevo Predio</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="nombrePredio" name="nombrePredio" type="text" placeholder="nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="municipioPredio" name="municipioPredio" type="text" placeholder="municipio" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="coloniaPredio" name="coloniaPredio" type="text" placeholder="colonia" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                   <input type = "submit" class = "btn btn-success" value = "Registrar">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div>
+                <div class="panel panel-default">
+                    <div class="text-center header">Visulizacion</div>
+                    <div class="panel-body text-center">
+                        <div id="map1" class="map1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        function init_map1() {
+            var myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
+            var mapOptions = {
+                center: myLocation,
+                zoom: 16
+            };
+            var marker = new google.maps.Marker({
+                position: myLocation,
+                title: "Property Location"
+            });
+            var map = new google.maps.Map(document.getElementById("map1"),
+                mapOptions);
+            marker.setMap(map);
+        }
+        init_map1();
+    });
+</script>
+
+<style>
+    .map {
+    min-width: 300px;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: #F5F5F5;
+    color: #36A0FF;
+    height: 70px;
+    font-size: 27px;
+    padding: 10px;
+}
+</style>
+ 
+</div>
+ </body>
+</html>

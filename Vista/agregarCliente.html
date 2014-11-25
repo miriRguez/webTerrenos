@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="/Vista/bootstrap/css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="/Vista/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" type="text/css" href="/Vista/mine/css/botones.css" />
+       <script type="text/javascript" src="Vista/mine/js/funciones.js"></script>
+   </head>
+   <body>
+    <form role="form" method="POST"  action = "../../index.php?ctrl=cliente&accion=insertar">
+      <div class="container">
+    <div class="row">
+      <div class="container">
+          <div class="span6">
+             <fieldset>
+               <legend class="text-center header">Nombre</legend>
+                <div class="form-group">
+                  <div class="col-md-10 col-md-offset-1">
+                    <input type="text" class="form-control" id="nombreCliente" name = "nombreCliente" placeholder="Nombre del cliente">   
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-md-10 col-md-offset-1">        
+                    <input type="text" class="form-control" id="apellidoPaterno" name = "apellidoPaterno" placeholder="Apellido paterno">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-md-10 col-md-offset-1">
+                    <input type="text" class="form-control" id="apellidoMaterno" name="apellidoMaterno"  placeholder="Apellido materno">
+                  </div>
+                </div>
+              </div>
+              <div class='form-group'>
+                <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                <input type='moz-date' class="form-control"  id = "fechaNacimiento" name = "fechaNacimiento"/>
+              </div>
+            <div class="form-group">
+              <select class="combobox">
+                <option value>Sexo</option>
+                <option value = 'm'>Masculino</option> 
+                <option value = 'f'>Femenino</option>
+              </select>
+             </div>
+            <div class='form-group'>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+                <input type="text" class="form-control" id="nacionalidad" name="nacionalidad" placeholder="Nacionalidad">
+              </div>
+            </div>
+            <div class='form-group'>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+                <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado">
+              </div>
+            </div>
+            <div class='form-group'>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+               <input type="text" class="form-control" id="estadoCivil" name="estadoCivil" placeholder="Estado civil">
+              </div>
+            </div>
+             <div class='form-group'>
+              <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+                <input type="text" class="form-control" id="oficio" name="oficio" placeholder="Oficio">
+             </div>
+            </div>
+          </fieldset>
+       </div>
+     </div>
+     <div class="col-md-6">
+       <div class="table-responsive">
+         <fieldset>
+           <legend class="text-center header">Domicilio actual</legend>
+              <div class="form-group">
+                <div class="col-md-10 col-md-offset-1">
+                  <input type="text" class="form-control" id="calle" name="calle" placeholder="Calle">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-3 col-sm-3 col-md-3 col-md-offset-1">
+                <input type="text" class="form-control" id="numeroInterior" name= "numeroInterior" placeholder="Número Interior">
+             </div>
+            </div>   
+            <div class="form-group">
+              <div class="col-xs-3 col-sm-3 col-md-3 col-md-offset-1">
+                <input type="text" class="form-control" id="numeroExterior" name="numeroExterior" placeholder="Número exterior">
+             </div>
+            </div>
+            <div class="form-group">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+              <input type="text" class="form-control" id="municipio" name="municipio" placeholder="Municipio">
+            </div>
+           </div>
+           <div class="form-group">
+             <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+               <input type="text" class="form-control" id="colonia" name="colonia" placeholder="Colonia">
+             </div>
+           </div>
+          <div class="form-group">
+             <div class="col-xs-3 col-sm-3 col-md-3 col-md-offset-1">
+              <input type="text" class="form-control" id="cp" name="cp" placeholder="Código postal">
+            </div>
+          </div>
+      </div>
+    </div>
+    </fieldset>
+    <div class="col-md-6">
+     <div class="table-responsive">
+       <fieldset>
+        <legend class="text-center header">Domicilio de origen</legend>
+         <div class='form-group'>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+              <input type="text" class="form-control" id="ciudadDeOrigen" name="ciudadDeOrigen" placeholder="Ciudad de origen">
+            </div>
+        </div>
+        <div class='form-group'>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+            <input type="text" class="form-control" id="munucipioOrigen" name="munucipioOrigen" placeholder="Municipio de origen">
+          </div>
+        </div>
+        <div class='form-group'>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-md-offset-1">
+            <input type="text" class="form-control" id="rfc" name="rfc" placeholder="RFC">
+          </div>
+        </div>
+       </fieldset>
+      </div>
+    </div>
+     <div class="form-group">
+        <div class="col-md-12 text-center">
+           <input type = "submit" class = "btn btn-success" value = "Registrar">
+        </div>
+  </div>
+  </form>
+</div>
+</div>
+</body>

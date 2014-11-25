@@ -3,19 +3,7 @@
 session_start();
 $ctrl;
 
-
-/*if (!isset($_GET['ctrl'])) {
-	require('Controlador/sesionControlador.php');
-	$ctrl = new sesionControlador();
-	if (!$_SESSION['usuarioEmail']) {
-		echo('Vista/login.html');
-	}
-
-//	require('Controlador/sesionControlador.php');
-}*/
-
-
-if(isset($_GET['ctrl'])){
+if (isset($_GET['ctrl']) ){
 		switch ($_REQUEST['ctrl'])
 		{
 			case 'usuario':
@@ -64,6 +52,16 @@ if(isset($_GET['ctrl'])){
 				require('Controlador/moraControlador.php');
 				$ctrl = new moraControlador();
 				break;
+			case 'goHome':
+				$cabecera = file_get_contents('./Vista/cabecera.html');
+				$pie = file_get_contents('./Vista/pie.html');
+				$data = file_get_contents('./Vista/indexAlternativo.html');
+
+				$vista = $cabecera.$data.$pie;
+				echo $vista;
+
+				break;
+
 
 			default:
 				if (!$_SESSION['usuarioEmail']) {
@@ -72,10 +70,11 @@ if(isset($_GET['ctrl'])){
 			break;
 
 		} // switch
-}else{
-	require('Controlador/sesionControlador.php');
-	$ctrl = new sesionControlador();
 }
+  else{
+		require('Controlador/sesionControlador.php');
+		$ctrl = new sesionControlador();
+   }
 
 if(isset($ctrl)) {
 	$ctrl->run();
